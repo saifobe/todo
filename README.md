@@ -1,5 +1,5 @@
 # todo
 
-![Alt text](/todo.jpg)
-![Alt text](/AboutIMG.jpg) 
+![Alt text](/imges/todo.jpg)
+![Alt text](/imges/AboutIMG.jpg) 
 
