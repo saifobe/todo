@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+              src="https://kit.fontawesome.com/64d58efc2.js"
+              crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/8e9e5f6276.js" crossorigin="anonymous"></script>
     <title>todo</title>
 </head>
 <body>
@@ -20,21 +27,23 @@
     </header>
     <main>
         <section>
-            <h2>My Info</h2>
-            <h3>My Name: Saif Mohammed Obeidat</h3>
+           <div class="info"><h2>My Informations :</h2>
+            <h3>Name: Saif Mohammed Obeidat</h3>
             <h3>Address: Amman/Jordan </h3>
-            <img src="./imges/user.jpg" alt="User Image"/>
+            <h3>Phone: 079*******</h3>
+        </div> 
+            <img class="user" src="./imges/user.jpg" alt="User Image"/>
         </section>
 
-        <section>
+        <div class="form">
             <label >Firest Name</label>
             <input type="text">
-            <br>
+            <br><br>
             <label >Last Name</label>
             <input type="text">
-            <br>
+            <br><br>
             <label>Email</label>
-            <input type="email">
+            <input class="email" type="email">
             <br><br>
             <label >Type a Massage</label>
             <textarea>Massage...</textarea>
@@ -42,9 +51,18 @@
             <input type="submit">
 
 
-        </section>
+        </div>
 
 </main>
 
-<footer><p>All Right Reserved</p>&copy;</footer>
+<footer>
+
+    <div class="copyRight"><p>All Right Reserved </p>&copy; </div>
+    <div class="sochialMedia">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+
+</footer>
 </body>
