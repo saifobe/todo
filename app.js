@@ -1,6 +1,6 @@
 "use strict";
-var name;
-var name = prompt("Enter Your Name ");
+
+var names = prompt("Enter Your Name ");
 
 var gender = prompt("What is your Gender ?");
 
@@ -28,12 +28,12 @@ if(massage = true)
 {
     if(gender == "male"  && age >= 0 )
     {
-        alert("Welcome Mr." + name);
+        alert("Welcome Mr." + names);
     }
 
     else if(gender == "female" && age >= 0 )
     {
-        alert("Welcome Mrs." + name);
+        alert("Welcome Mrs." + names);
     }
 
     else
