@@ -50,5 +50,16 @@ else
    alert("You skipped the welcoming masseage");
 }
 
+var quast1 = prompt("Do You Like Fast Food ?");
+var quast2 = prompt("Do You Like Fast Cars ?");
+var quast3 = prompt("Do You Like Watching Sports ?");
+let myArr=[quast1,quast2,quast3];
+function myQuast(arr){
+    for(let i=0;i<arr.length;i++){
+        console.log(arr[i]);
+    }
+}
+myQuast(myArr);
+
 
 
