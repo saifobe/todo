@@ -57,9 +57,9 @@ else
 myQuast(myArr);*/
 
 
-//var quast1 = prompt("Do You Like Fast Food ?");
+/*```````````````````````````LAP 6``````````````````````````````````*/
 
-  function questionOne(){
+  function questionOne(){ 
     const quast1 = prompt("Do You Like Fast Food ?");
 
     if(quast1 != "yes" && quast1 !="no"){
@@ -70,7 +70,7 @@ myQuast(myArr);*/
     }
 }
 
-//var quast2 = prompt("Do You Like Fast Cars ?");
+
 function questionTwo(){
     const quast2 = prompt("Do You Like Fast Cars ?");
 
@@ -81,8 +81,6 @@ function questionTwo(){
         console.log(quast2)
     }
 }
-
-//var quast3 = prompt("Do You Like Watching Sports ?");
 
 function questionThree(){
     const quast3 = prompt("Do You Like Watching Sports ?");
