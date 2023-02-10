@@ -44,22 +44,63 @@ if(massage = true)
 }
 
 
-
 else
 {
    alert("You skipped the welcoming masseage");
 }
 
-var quast1 = prompt("Do You Like Fast Food ?");
-var quast2 = prompt("Do You Like Fast Cars ?");
-var quast3 = prompt("Do You Like Watching Sports ?");
-let myArr=[quast1,quast2,quast3];
+/*function myQuast(arr){
+    for(let i=0;i<arr.length;i++){
+        console.log(arr[i]);
+    }
+}
+myQuast(myArr);*/
+
+
+//var quast1 = prompt("Do You Like Fast Food ?");
+
+  function questionOne(){
+    const quast1 = prompt("Do You Like Fast Food ?");
+
+    if(quast1 != "yes" && quast1 !="no"){
+        console.log("Invalid")
+    }
+    else{
+        console.log(quast1)
+    }
+}
+
+//var quast2 = prompt("Do You Like Fast Cars ?");
+function questionTwo(){
+    const quast2 = prompt("Do You Like Fast Cars ?");
+
+    if(quast2 != "yes" && quast2 !="no"){
+        console.log("Invalid")
+    }
+    else{
+        console.log(quast2)
+    }
+}
+
+//var quast3 = prompt("Do You Like Watching Sports ?");
+
+function questionThree(){
+    const quast3 = prompt("Do You Like Watching Sports ?");
+
+    if(quast3 != "yes" && quast3 !="no"){
+        console.log("Invalid")
+    }
+    else{
+        console.log(quast3)
+    }
+}
+
+let myArr=[questionOne(),questionTwo(),questionThree()];
+
+
 function myQuast(arr){
     for(let i=0;i<arr.length;i++){
         console.log(arr[i]);
     }
 }
 myQuast(myArr);
-
-
-
